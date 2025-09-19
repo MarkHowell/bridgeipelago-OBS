@@ -54,7 +54,7 @@ class ArchipelagoOBSBridge:
     async def connect_archipelago(self):
         """Connect to Archipelago server as observer"""
         try:
-            uri = f"ws://{self.config['archipelago_host']}:{self.config['archipelago_port']}"
+            uri = f"wss://{self.config['archipelago_host']}:{self.config['archipelago_port']}"
             self.archipelago_ws = await websockets.connect(uri)
             logger.info(f"Connected to Archipelago server at {uri}")
 
