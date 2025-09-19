@@ -1,3 +1,4 @@
+obsws-python
 beautifulsoup4
 discord.py
 matplotlib
@@ -5,3 +6,4 @@ numpy
 python-dotenv
 requests
 websockets
+obsw_python

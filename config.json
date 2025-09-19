@@ -1,12 +1,12 @@
 {
-  "archipelago_host": "localhost",
-  "archipelago_port": 38281,
+  "archipelago_host": "archipelago.gg",
+  "archipelago_port": 59331,
   "archipelago_password": "",
-  "bot_name": "OBS_Bridge",
+  "bot_name": "Bridgeipelago",
   "uuid": "",
   "obs_host": "localhost",
   "obs_port": 4455,
-  "obs_password": "",
+  "obs_password": "J45BQCxQu4zjblIF",
   "obs_actions": {
     "item_received": {
       "type": "text_update",
