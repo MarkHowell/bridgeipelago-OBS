@@ -1,0 +1,32 @@
+{
+  "archipelago_host": "localhost",
+  "archipelago_port": 38281,
+  "archipelago_password": "",
+  "bot_name": "OBS_Bridge",
+  "uuid": "",
+  "obs_host": "localhost",
+  "obs_port": 4455,
+  "obs_password": "",
+  "obs_actions": {
+    "item_received": {
+      "type": "text_update",
+      "source_name": "ItemReceivedText",
+      "text_template": "Received: {item_id} from {player}"
+    },
+    "item_sent": {
+      "type": "text_update",
+      "source_name": "ItemSentText",
+      "text_template": "Sent item to another player!"
+    },
+    "player_joined": {
+      "type": "scene_switch",
+      "scene_name": "PlayerJoined"
+    },
+    "archipelago_connected": {
+      "type": "source_visibility",
+      "scene_name": "Main",
+      "source_name": "ConnectedIndicator",
+      "visible": true
+    }
+  }
+}
