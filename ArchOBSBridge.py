@@ -2,6 +2,7 @@
 """
 Archipelago to OBS Bridge - Full Server Observer
 Connects to an Archipelago server as an observer and sends ALL events to OBS via WebSocket
+Very untested
 """
 
 import asyncio
